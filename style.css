@@ -1,0 +1,120 @@
+/* for large devices */
+@media (min-width: 1025px){ 
+h2{
+    height: max-content;
+    margin-top:-15px ;
+    margin-left: 10px;
+}
+.col-lg-12{
+    margin-top: -16px;
+  }
+#thr{
+    margin-top: 17px;
+    color:red;
+}
+#lhr{
+    margin-top: -9px;
+    color:red;
+}
+#header
+{
+    margin-left: 0%;
+    background-color: gray ;
+    height: 45px;
+}
+h1{
+text-align: center;
+}
+#chicken
+{
+    text-align: center;
+    
+    display: inline-flex;
+   
+}
+div{
+    margin: 12px 12px;
+ gap: 20px;
+}
+#border1{
+    /* border: 20px solid white; */
+    border-right:5px solid white ;
+    background-color: gray;
+    border:5px solid white ;
+}
+#border2{
+    /* border: 20px solid white; */
+    border-right:5px solid white ;
+    background-color: gray;
+    border:5px solid white ;
+}
+#border3{
+    /* border: 20px solid white; */
+    border-right:5px solid white ;
+    background-color: gray;
+    border:5px solid white ;
+}
+}
+
+
+
+@media (min-width: 375px) and (max-width: 667px){
+    h2{
+        height: max-content;
+        margin-top:-15px ;
+        margin-left: 10px;
+    }
+    .col-lg-12{
+        margin-top: -16px;
+      }
+    #thr{
+        margin-top: 17px;
+        color:red;
+    }
+    #lhr{
+        margin-top: -9px;
+        color:red;
+    }
+.dropdown show{
+        float: right;
+    } 
+    #header
+    {
+        
+        margin-left: 0%;
+        background-color: gray ;
+        height: 45px;
+    }
+    h1{
+    text-align: center;
+    }
+    #chicken
+    {
+        text-align: center;
+        
+     
+       
+    }
+    div{
+        margin: 12px 12px;
+     gap: 20px;
+    }
+    #border1{
+        /* border: 20px solid white; */
+        /* border-right:5px solid white ; */
+        background-color: gray;
+        /* border:5px solid white ; */
+    }
+    #border2{
+        /* border: 20px solid white; */
+        /* border-right:5px solid white ; */
+        background-color: gray;
+        /* border:5px solid white ; */
+    }
+    #border3{
+        /* border: 20px solid white; */
+        /* border-right:5px solid white ; */
+        background-color: gray;
+        /* border:5px solid white ; */
+    }
+}
